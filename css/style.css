@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #181d20;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  border: 1.81px solid rgba(255, 255, 255, 0.11);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 319px;
+}
+.nav-list {
+  display: flex;
+  gap: 70px;
+}
+
+.nav-link {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 30px 0 30px 0;
+  transition: color 0.5s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #cad1ff;
+}
+
+.icon-link {
+  margin-left: 75px;
+}
+
+.hero {
+  position: relative;
+  padding-top: 66px;
+  padding-bottom: 103px;
+}
+
+.hero {
+  background-image: url("../images/Mavic-Dronee.png"),
+    url("../images/shadow.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 806px 333px, cover;
+  background-position: left 320px top 80px, center;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 54px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin: 48px 0 14px;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  max-width: 605px;
+  text-align: center;
+  color: #fffbfb;
+  margin: 0 auto 43px;
+}
+
+.button {
+  font-family: inherit;
+  background: #ffeded;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border-radius: 36px;
+  border: none;
+  width: 188px;
+  height: 54px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #cad1ff;
+}
+
+.side-label {
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%) rotate(90deg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  z-index: 1;
+}
+
+.top-text {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fffbfb;
+}
+
+.bottom-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.64286;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #fffbfb;
+}
+
+.side-label .line {
+  border: 0.91px solid #fffbfb;
+  width: 58px;
+  height: 0px;
+}
